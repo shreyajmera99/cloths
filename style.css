@@ -173,11 +173,11 @@ nav {
 .products1 > img{
     width: 22vmax
 }
-.products1 > h4{
+.products1 > h5{
     margin: 2%;
 }
 .products1 > h5{
-    margin: 0px;
+    margin: 1%;
 }
 /* .products:hover{
     transform: translateY(10px)
@@ -238,10 +238,10 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .rightFooter > h4 {
+  .rightFooter > p {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1.4vmax;
-    text-decoration: underline;
+    font-size: 2vmax;
+    /* text-decoration: underline; */
   }
   .rightFooter > a {
     text-decoration: none;
@@ -250,7 +250,16 @@ footer {
     color: white;
     margin: 0.5vmax;
   }
-  
+  .styleimg {
+    width: 3.5vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  .linkg{
+    text-decoration: none;
+    font-size: 2vmax
+    ;
+  }
   @media screen and (max-width: 500px) {
     #rightcontainer{
       display: flex;
@@ -293,6 +302,13 @@ footer {
   font-size: 2.2vmax;
 
   margin: 1vmax auto;
+}
+.products1 > img{
+  width: 15vmax
+}
+.products1 > h5{
+  margin: 2%;
+  font-size: 10px;
 }
   }
 
